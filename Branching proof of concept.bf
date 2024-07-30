@@ -13,7 +13,7 @@
 
 +++++>++++>+        test data
 
-[->+<[->->+<<[->>->+<<<]]]      moving operator flag
+[->+<[->->+<<[->>->+<<<]]]+      moving operator flag
 
 [>[-<-<                                     case Op = 1
     [->+>+<<]<[->+>+<<]>[-<+>]>>[-<<+>>]<   branch 1
