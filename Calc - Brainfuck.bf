@@ -1,20 +1,32 @@
-+++++>++++>+        test data
+[
+    Expected input:
+        Nnumbers separated into digits (example 5+2 -> '0' '5' '+' '0' '2')
+        Available functions: + - * 
+]
 
-[->+<[->->+<<[->>->+<<<]]]+                         moving operator flag
+Input from user
+,>,>,>,>,
 
-[>[-<-<                                             case Op = plus
+>++++[>+++++ +++++<-]>+ [-<<<<->>>>]<<<<[->>>+<<<]>>>                   moving operator to last cell
+>++++[<<<<+++++ +++++>>>>-]<<<<+++++ +++ [->->-<<<-<->>]                decoding ASCII
+<<[->+++++ +++++<]>[-<+>]>>[->+++++ +++++<]>[-<<<+>>>]>[-<<<+>>>]<<<    multiplying tens in input
 
-    [->+>+<<]<[->+>+<<]>[-<+>]>>[-<<+>>]<           Addition branch
 
->>]>[-<<-<                                          case Op = minus
+[->+<[->->+<<[-->>->+<<<]]]+                        moving operator flag
 
-    <[->>>+<<<]>>>[-<+<<+>>>]<<[->->+<<]>>[-<<+>>]<  Subtraction branch
-
->>>]>[-<<<-<                                        case Op = multiply
+[>[-<-<                                             case Op = 1
 
     [->+<]<[->+>>+<<<]>>>[-<<<+>>>]<<               Multiplication branch
     [->[->+>+<<]>>[-<<+>>]<<<]
     >[-<+>]>[-<+>]<
+
+>>]>[-<<-<                                          case Op = 2
+
+    [->+>+<<]<[->+>+<<]>[-<+>]>>[-<<+>>]<           Addition branch
+
+>>>]>[-<<<-<                                        case Op = 3
+
+    <[->>>+<<<]>>>[-<+<<+>>>]<<[->->+<<]>>[-<<+>>]< Subtraction branch
 
 >>>>]<<<]
 
