@@ -1,11 +1,20 @@
 [[
     Print Function
+    Inputs:
+    |
+    N 0 0 0 0
+        N=Data
+
+    Outputs:
+    |
+    N 0 0 0 0
+        N=Data
 
     Function takes a single cell of data and prints it as a decimal number.
 
-    Main algorythm ecpects inputs
+    Main algorythm expects inputs
         N 0 M 0 0      N=input data
-                       M=mark number 
+                       M=mark number         
     then uses branching similar to if statement to skip sections of the loop
     and marking when the count reaches number indicated in 3rd input cell.
     Section >>] can be seen as continue in the loop.
